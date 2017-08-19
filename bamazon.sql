@@ -11,34 +11,16 @@ Price DECIMAL(5,2) NOT NULL,
 StockQuantity int NOT NULL);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 12345, 'Mens Classic Polo Shirt', 'Mens Clothing', 29.99, 50 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 67891, 'Mens Hoodie', 'Mens Clothing', 49.99, 40 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 23456, 'Boys Short Sleeve Graphic Shirt', 'Mens Clothing', 19.99, 20 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 78912, 'Blue Ray Player', 'Electronics', 99.95, 20 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 34567, 'Mens Boxers', 'Mens Clothing', 12.99, 30);
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 89123, 'Javascript & Jquery Beginners Guide', 'Books', 25.99, 15 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 45678, 'Mens Knit Black Beanie', 'Mens Clothing', 19.99, 25 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 91234, 'Whey Protein Chocolate Powder', 'Health', 39.99, 20);
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 56789, 'Bow Tie Dog Collar', 'Pets', 19.99, 10 );
-
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
-VALUES ( 11234, 'Shark Encylopdia Kids Book', 'Books', 39.99, 20 );
+VALUES  ( 12345, 'Mens Classic Polo Shirt', 'Mens Clothing', 29.99, 50 ),
+        ( 67891, 'Mens Hoodie', 'Mens Clothing', 49.99, 40 ),
+        ( 23456, 'Boys Short Sleeve Graphic Shirt', 'Mens Clothing', 19.99, 20 ),
+        ( 78912, 'Blue Ray Player', 'Electronics', 99.95, 20 ),
+        ( 34567, 'Mens Boxers', 'Mens Clothing', 12.99, 30),
+        ( 89123, 'Javascript & Jquery Beginners Guide', 'Books', 25.99, 15 ),
+        ( 45678, 'Mens Knit Black Beanie', 'Mens Clothing', 19.99, 25 ),   
+        ( 91234, 'Whey Protein Chocolate Powder', 'Health', 39.99, 20),
+        ( 56789, 'Bow Tie Dog Collar', 'Pets', 19.99, 10 ),
+        ( 11234, 'Shark Encylopdia Kids Book', 'Books', 39.99, 20 );
 
 USE bamazon;
 CREATE TABLE Departments(
